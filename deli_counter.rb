@@ -16,9 +16,10 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
+  katz_deli.each.with_index(1) do |name, index|
     puts  "Welcome, #{name}. You are number #{index} in line."
     end
-
+end
 
 def now_serving(deli)
   if deli.size <= 0
