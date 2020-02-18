@@ -13,13 +13,6 @@ def line(katz_deli)
   end
 end
 
-#def take_a_number(katz_deli, number)
-#  new_array = []
-#  number == 0
-#  puts "Welcome, #{number}. You are number #{katz_deli} in line."
-#  number += 1
-#  katz_deli << new_array
-#end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
